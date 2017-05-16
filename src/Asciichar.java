@@ -12,7 +12,7 @@ public class Asciichar
         for(i=65; i<=90; i++)
         {
             ch = new Character((char)i).toString();
-            System.out.print(i+ " - " + ch + "\n"); //*Prints the ASCII value of character as integer 
+            System.out.print(i+ " - " + ch + "\n");  
         }
 	}
 }
